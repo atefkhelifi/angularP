@@ -1,0 +1,26 @@
+<div class="container custom-container">
+    <div class="col-md-12">
+      <h3 class="mb-3 text-center">Create Employee</h3>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="userDetails.id" class="form-control" placeholder="ID">
+      </div>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="userDetails.nom" class="form-control" placeholder="Nom">
+      </div>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="userDetails.prenom" class="form-control" placeholder="Prenom">
+      </div>
+  
+      <div class="form-group">
+        <input type="text" [(ngModel)]="userDetails.age" class="form-control" placeholder="Age">
+      </div>
+
+      <div class="form-group">
+        <button class="btn btn-success btn-lg btn-block" (click)="addUser()">Create User</button>
+      </div>
+  
+    </div>
+  </div>
